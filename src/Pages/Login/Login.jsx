@@ -84,18 +84,19 @@ const Login = () => {
       <div className="main-container1">
         {/* Rest of your JSX remains exactly the same */}
         <div className="left-image">
-          <img src="./Image/signIn.jpg" alt="" />
+          <img src="./Image/signIn.webp" alt="signup image" />
         </div>
 
         <div className="login-section1">
           <div className="login-container">
             <div className="icons-for-header">
-              <img src="./Image/fedral.png" alt="fedral police picture or logo" />
-              <img src="./Image/images.png" alt="debrebrhan university logo" />
+              <img src="./Image/fedral.webp" alt="fedral police picture or logo" />
+              <img src="./Image/images.webp" alt="debrebrhan university logo" />
             </div>
             <h4 className="welcome-message1">WELCOME TO AMHARA MISSING PERSON FINDING SYSTEM</h4>
             <div className="text-for-header">
               <h2>Login to Your Account</h2>
+              
             </div>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
@@ -103,7 +104,7 @@ const Login = () => {
                 <input 
                   type="text"
                   id="username" 
-                  placeholder="PO00001"
+                  placeholder="PO00022"
                   value={policeOfficerId} 
                   onChange={(e) => setPoliceOfficerId(e.target.value)}
                   required 
@@ -116,7 +117,7 @@ const Login = () => {
                   type="password"
                   id="password" 
                   value={password}
-                  placeholder="amin123"
+                  placeholder="1234"
                   onChange={(e) => setPassword(e.target.value)}
                   required 
                 />
@@ -126,7 +127,7 @@ const Login = () => {
                 <button type="submit">LOGIN</button>
               </div>
             </form>
-            <div className="text-for-header1"><img src="./Image/ethiopia.png" alt="" /></div>
+            <div className="text-for-header1"><img src="./Image/ethiopia.webp" alt="" /></div>
           </div>
         </div>
       </div>
